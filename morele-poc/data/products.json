@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Frytkownica beztłuszczowa Xiaomi Smart 3.5 l Biała",
+    "price": 209.99,
+    "category": "peryferia",
+    "img": "/images/polecane/1.jpg",
+    "featured": true,
+    "rating": 4.7,
+    "reviews": 44,
+    "customers": 112
+  },
+  {
+    "id": 2,
+    "name": "Tablet Apple iPad 10.9 11 gen. 128 GB Srebrny (MD3Y4)",
+    "price": 1689.00,
+    "category": "monitory",
+    "img": "/images/polecane/2.jpg",
+    "featured": true,
+    "rating": 4.5,
+    "reviews": 12,
+    "customers": 43
+  },
+  {
+    "id": 3,
+    "name": "Odkurzacz pionowy Xiaomi G20 Lite",
+    "price": 336.00,
+    "category": "monitory",
+    "img": "/images/polecane/3.jpg",
+    "featured": true,
+    "rating": 4.8,
+    "reviews": 51,
+    "customers": 273
+  },
+  {
+    "id": 4,
+    "name": "Powerbank Baseus Magnetic Mini 6000mAh Biały",
+    "price": 89.00,
+    "category": "monitory",
+    "img": "/images/polecane/4.jpg",
+    "featured": true,
+    "rating": 4.7,
+    "reviews": 10,
+    "customers": 32
+  },
+  {
+    "id": 5,
+    "name": "Słuchawki Sony WH-1000XM5 Białe",
+    "price": 1099.0,
+    "category": "monitory",
+    "img": "/images/polecane/5.png",
+    "featured": true,
+    "rating": 4.8,
+    "reviews": 19,
+    "customers": 88
+  },
+  {
+    "id": 6,
+    "name": "Suszarka Dreame AHD51 Glory Pocket szary",
+    "price": 1313.98 ,
+    "category": "monitory",
+    "img": "/images/polecane/6.jpg",
+    "featured": true,
+    "rating": 4.6,
+    "reviews": 12,
+    "customers": 45
+  },
+  {
+    "id": 7,
+    "name": "Frytkownica beztłuszczowa Xiaomi Smart Air Fryer 6.5l Czarna",
+    "price": 389.00,
+    "category": "monitory",
+    "img": "/images/polecane/7.jpg",
+    "featured": true,
+    "rating": 4.2,
+    "reviews": 7,
+    "customers": 112
+  },
+  {
+  "id": 8,
+  "name": "Laptop MSI Katana A17 AI B8VF-1004XPL Ryzen 7 8845HS / 16 GB / 1 TB / RTX 4060 / 144 Hz",
+  "price": 4498.00,
+  "category": "laptop",
+  "img": "/images/laptopy/1.jpg",
+  "rating": 4.8,
+  "reviews": 37,
+  "customers": 112
+},
+{
+  "id": 9,
+  "name": "Laptop HP 255 G10 Ryzen 5 7530U / 16 GB / 512 GB / W11",
+  "price": 2295.67,
+  "category": "laptop",
+  "img": "/images/laptopy/2.jpg",
+  "rating": 4.6,
+  "reviews": 18,
+  "customers": 44
+},
+{
+  "id": 10,
+  "name": "Laptop MSI Thin 15 B12UCX-1818XPL i5-12450H / 16 GB / 512 GB / RTX 2050",
+  "price": 2499.00,
+  "category": "laptop",
+  "img": "/images/laptopy/3.jpg",
+  "rating": 4.4,
+  "reviews": 22,
+  "customers": 73
+},
+{
+  "id": 11,
+  "name": "Laptop Lenovo LOQ 15ARP9 Ryzen 7 7435HS / 16 GB / 512 GB / RTX 4060",
+  "price": 3899.00,
+  "category": "laptop",
+  "img": "/images/laptopy/4.jpg",
+  "rating": 4.7,
+  "reviews": 11,
+  "customers": 51
+},
+{
+  "id": 12,
+  "name": "Laptop Lenovo LOQ 15IAX9 i5-12450HX / 16 GB / 512 GB / RTX 4050",
+  "price": 3199.00,
+  "category": "laptop",
+  "img": "/images/laptopy/5.jpg",
+  "rating": 4.5,
+  "reviews": 9,
+  "customers": 22
+}
+]

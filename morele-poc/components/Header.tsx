@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { ShoppingCart, Search } from 'lucide-react';
 import { useState } from 'react';
+import CartBadge from '@/components/CartBadge';
 
 export default function Header() {
   const [query, setQuery] = useState('');
@@ -38,11 +39,9 @@ export default function Header() {
         <Link
           href="/cart"
           className="relative inline-flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200"
-        >
-          <ShoppingCart className="h-6 w-6" />
-          <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#ff503c] text-xs font-semibold text-white">
-            0
-          </span>
+          >
+            <ShoppingCart className="h-6 w-6" />
+            <CartBadge />
         </Link>
       </div>
     </header>

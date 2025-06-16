@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import { Product } from '@/lib/getProducts';
 import { ShoppingCart } from 'lucide-react';
+import { useCart } from '@/lib/store/cart';
 
 type Props = { product: Product };
 
 export default function ProductCard({ product }: Props) {
+  const add = useCart((s) => s.add);
+
   return (
     <div className="group flex flex-col rounded-lg border bg-white p-4 shadow-sm transition hover:shadow-md">
       <Image
@@ -21,7 +24,7 @@ export default function ProductCard({ product }: Props) {
         <span className="text-lg font-semibold text-orange-600">
           {product.price.toFixed(2)} zł
         </span>
-        <button className="rounded-full bg-indigo-600 p-2 text-white hover:bg-indigo-700">
+        <button className="rounded-full bg-indigo-600 p-2 text-white hover:bg-indigo-700" onClick={() => add(product)} >
           <ShoppingCart className="h-4 w-4" />
         </button>
       </div>

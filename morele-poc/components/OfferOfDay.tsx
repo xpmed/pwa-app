@@ -4,10 +4,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import type { OfferOfDay } from '@/lib/getOfferOfDay';
+import { useCart } from '@/lib/store/cart';
 
 type Props = { offer: OfferOfDay };
 
 export default function OfferOfDay({ offer }: Props) {
+    const add = useCart((s) => s.add);
+
     const [secondsLeft, setSecondsLeft] = useState(
         Math.max(
             0,
@@ -81,7 +84,13 @@ export default function OfferOfDay({ offer }: Props) {
             <div className="mt-4 flex flex-col gap-2 px-4 sm:flex-row sm:items-center">
                 <button
                     className="rounded border border-[#ff503c] px-4 py-2 text-sm font-semibold text-[#ff503c] hover:bg-[#ff503c]/10"
-                    onClick={() => alert('Dodano do koszyka')}>
+                    onClick={() => add({
+                        id: offer.id,
+                        name: offer.name,
+                        price: offer.price,
+                        img: offer.img,
+                        category: 'offer',
+                    })}>
                     Do koszyka
                 </button>
 

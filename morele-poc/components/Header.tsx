@@ -11,8 +11,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 p-4">
         {/* header */}
-        <Link href="/" className="text-xl font-bold text-indigo-600">
-          morele<span className="text-orange-500">POC</span>
+        <Link href="/" className="text-xl font-bold text-[#ff503c]">
+          Brzoskwinie
         </Link>
 
         {/* search */}
@@ -40,7 +40,7 @@ export default function Header() {
           className="relative inline-flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200"
         >
           <ShoppingCart className="h-6 w-6" />
-          <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-orange-500 text-xs font-semibold text-white">
+          <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#ff503c] text-xs font-semibold text-white">
             0
           </span>
         </Link>

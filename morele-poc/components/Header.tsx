@@ -4,9 +4,11 @@ import Link from 'next/link';
 import { ShoppingCart, Search } from 'lucide-react';
 import { useState } from 'react';
 import CartBadge from '@/components/CartBadge';
+import { useRouter } from 'next/navigation';
 
 export default function Header() {
   const [query, setQuery] = useState('');
+  const router = useRouter();
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
@@ -21,7 +23,7 @@ export default function Header() {
           onSubmit={(e) => {
             e.preventDefault();
             if (!query.trim()) return;
-            console.log('search:', query);
+            router.push(`/search?q=${encodeURIComponent(query.trim())}`);
           }}
           className="relative flex flex-1 max-w-md"
         >
@@ -30,7 +32,7 @@ export default function Header() {
             placeholder="Szukaj produktów…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-full rounded-lg border px-4 py-2 pr-10 text-sm focus:border-indigo-500 focus:outline-none"
+            className="w-full rounded-lg border px-4 py-2 pr-10 text-sm text-black placeholder-gray-500 focus:border-indigo-500 focus:outline-none"
           />
           <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-500" />
         </form>

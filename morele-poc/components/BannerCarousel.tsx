@@ -2,7 +2,9 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/autoplay';
 import Image from 'next/image';
+import { Autoplay } from 'swiper/modules';
 
 const banners = [
   '/images/banners/banner.png',
@@ -14,7 +16,8 @@ export default function BannerCarousel() {
   return (
     <Swiper
       loop
-      autoplay={{ delay: 4000 }}
+      modules={[Autoplay]}
+      autoplay={{ delay: 4000, disableOnInteraction: false }}
       className="aspect-[16/5] w-full overflow-hidden rounded-xl shadow"
     >
       {banners.map((src) => (

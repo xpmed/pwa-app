@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -5,10 +6,22 @@ import RatingStars from '@/components/RatingStars';
 import AddToCart from '@/components/AddToCart';
 import { getProducts, Product } from '@/lib/getProducts';
 
-export default async function ProductPage({ params }: { params: { id: string } }) {
-    const products = await getProducts();
-    const product = products.find(p => String(p.id) === params.id) as Product | undefined;
-    if (!product) return notFound();
+export default async function ProductPage(
+  {
+    params,
+    searchParams,
+  }: {
+    params: { id: string };
+    searchParams?: Record<string, string | string[] | undefined>;
+  },
+) {
+
+  void searchParams;
+  const products = await getProducts();
+  const product = products.find((p) => String(p.id) === params.id) as
+    | Product
+    | undefined;
+  if (!product) return notFound();
 
     const specs = Object.entries(product.specs ?? {}).slice(0, 3);
     const sampleReviews = [

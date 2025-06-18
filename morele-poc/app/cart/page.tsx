@@ -38,7 +38,7 @@ export default function CartPage() {
         </div>
         <p className="mt-2 text-right text-xs text-green-600">+ darmowa dostawa</p>
 
-        <button className="mt-6 w-full rounded bg-[#ff503c] py-3 text-center text-sm font-semibold text-white hover:bg-[#e84933]" onClick={() => alert('Wybierz dostawę (demo)')}>Wybierz dostawę i płatność</button>
+        <button className="mt-6 w-full rounded bg-[#ff503c] py-3 text-center text-sm font-semibold text-white hover:bg-[#e84933]" onClick={() => alert('Wybierz dostawę')}>Wybierz dostawę i płatność</button>
     </section>
   );
 }

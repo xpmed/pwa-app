@@ -11,8 +11,9 @@ export type Product = {
   rating?: number;
   reviews?: number;
   customers?: number;
+  specs?: Record<string, string>;
 };
 
 export async function getProducts(): Promise<Product[]> {
-  return products as Product[];
+  return products as unknown as Product[];
 }

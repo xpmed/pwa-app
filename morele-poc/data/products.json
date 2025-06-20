@@ -8,40 +8,60 @@
     "featured": true,
     "rating": 4.7,
     "reviews": 44,
-    "customers": 112
+    "sold": 112,
+    "specs": {
+      "Pojemność": "3.5 l",
+      "Moc": "1500 W",
+      "Kolor": "Biały"
+    }
   },
   {
     "id": 2,
     "name": "Tablet Apple iPad 10.9 11 gen. 128 GB Srebrny (MD3Y4)",
-    "price": 1689.00,
+    "price": 1689.0,
     "category": "monitory",
     "img": "/images/polecane/2.jpg",
     "featured": true,
     "rating": 4.5,
     "reviews": 12,
-    "customers": 43
+    "sold": 43,
+    "specs": {
+      "Ekran": "10.9” 60 Hz",
+      "Pamięć": "128 GB",
+      "Łączność": "Wi-Fi"
+    }
   },
   {
     "id": 3,
     "name": "Odkurzacz pionowy Xiaomi G20 Lite",
-    "price": 336.00,
+    "price": 336.0,
     "category": "monitory",
     "img": "/images/polecane/3.jpg",
     "featured": true,
     "rating": 4.8,
     "reviews": 51,
-    "customers": 273
+    "sold": 273,
+    "specs": {
+      "Siła ssania": "20 kPa",
+      "Czas pracy": "45 min",
+      "Filtr": "HEPA"
+    }
   },
   {
     "id": 4,
     "name": "Powerbank Baseus Magnetic Mini 6000mAh Biały",
-    "price": 89.00,
+    "price": 89.0,
     "category": "monitory",
     "img": "/images/polecane/4.jpg",
     "featured": true,
     "rating": 4.7,
     "reviews": 10,
-    "customers": 32
+    "sold": 32,
+    "specs": {
+      "Pojemność": "6000 mAh",
+      "Wyjście": "USB-C 20 W",
+      "Ładowanie": "MagSafe"
+    }
   },
   {
     "id": 5,
@@ -52,78 +72,118 @@
     "featured": true,
     "rating": 4.8,
     "reviews": 19,
-    "customers": 88
+    "sold": 88,
+    "specs": {
+      "ANC": "Tak",
+      "Czas pracy": "30 h",
+      "Łączność": "BT 5.2"
+    }
   },
   {
     "id": 6,
     "name": "Suszarka Dreame AHD51 Glory Pocket szary",
-    "price": 1313.98 ,
+    "price": 1313.98,
     "category": "monitory",
     "img": "/images/polecane/6.jpg",
     "featured": true,
     "rating": 4.6,
     "reviews": 12,
-    "customers": 45
+    "sold": 45,
+    "specs": {
+      "Moc": "1600 W",
+      "Przepływ": "70 m³/h",
+      "Jonizacja": "Tak"
+    }
   },
   {
     "id": 7,
     "name": "Frytkownica beztłuszczowa Xiaomi Smart Air Fryer 6.5l Czarna",
-    "price": 389.00,
+    "price": 389.0,
     "category": "monitory",
     "img": "/images/polecane/7.jpg",
     "featured": true,
     "rating": 4.2,
     "reviews": 7,
-    "customers": 112
+    "sold": 112,
+    "specs": {
+      "Pojemność": "6.5 l",
+      "Moc": "1800 W",
+      "Sterowanie": "Wi-Fi"
+    }
   },
   {
-  "id": 8,
-  "name": "Laptop MSI Katana A17 AI B8VF-1004XPL Ryzen 7 8845HS / 16 GB / 1 TB / RTX 4060 / 144 Hz",
-  "price": 4498.00,
-  "category": "laptop",
-  "img": "/images/laptopy/1.jpg",
-  "rating": 4.8,
-  "reviews": 37,
-  "customers": 112
-},
-{
-  "id": 9,
-  "name": "Laptop HP 255 G10 Ryzen 5 7530U / 16 GB / 512 GB / W11",
-  "price": 2295.67,
-  "category": "laptop",
-  "img": "/images/laptopy/2.jpg",
-  "rating": 4.6,
-  "reviews": 18,
-  "customers": 44
-},
-{
-  "id": 10,
-  "name": "Laptop MSI Thin 15 B12UCX-1818XPL i5-12450H / 16 GB / 512 GB / RTX 2050",
-  "price": 2499.00,
-  "category": "laptop",
-  "img": "/images/laptopy/3.jpg",
-  "rating": 4.4,
-  "reviews": 22,
-  "customers": 73
-},
-{
-  "id": 11,
-  "name": "Laptop Lenovo LOQ 15ARP9 Ryzen 7 7435HS / 16 GB / 512 GB / RTX 4060",
-  "price": 3899.00,
-  "category": "laptop",
-  "img": "/images/laptopy/4.jpg",
-  "rating": 4.7,
-  "reviews": 11,
-  "customers": 51
-},
-{
-  "id": 12,
-  "name": "Laptop Lenovo LOQ 15IAX9 i5-12450HX / 16 GB / 512 GB / RTX 4050",
-  "price": 3199.00,
-  "category": "laptop",
-  "img": "/images/laptopy/5.jpg",
-  "rating": 4.5,
-  "reviews": 9,
-  "customers": 22
-}
+    "id": 8,
+    "name": "Laptop MSI Katana A17 AI B8VF-1004XPL Ryzen 7 8845HS / 16 GB / 1 TB / RTX 4060 / 144 Hz",
+    "price": 4498.0,
+    "category": "laptop",
+    "img": "/images/laptopy/1.jpg",
+    "rating": 4.8,
+    "reviews": 37,
+    "sold": 112,
+    "specs": {
+      "Ekran": "17.3” 144 Hz",
+      "Procesor": "R7 8845HS",
+      "Grafika": "RTX 4060"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Laptop HP 255 G10 Ryzen 5 7530U / 16 GB / 512 GB / W11",
+    "price": 2295.67,
+    "category": "laptop",
+    "img": "/images/laptopy/2.jpg",
+    "rating": 4.6,
+    "reviews": 18,
+    "sold": 44,
+    "specs": {
+      "Ekran": "15.6” FHD",
+      "Procesor": "R5 7530U",
+      "RAM": "16 GB"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Laptop MSI Thin 15 B12UCX-1818XPL i5-12450H / 16 GB / 512 GB / RTX 2050",
+    "price": 2499.0,
+    "category": "laptop",
+    "img": "/images/laptopy/3.jpg",
+    "rating": 4.4,
+    "reviews": 22,
+    "sold": 73,
+    "specs": {
+      "Ekran": "15.6” 144 Hz",
+      "Procesor": "i5-12450H",
+      "Grafika": "RTX 2050"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Laptop Lenovo LOQ 15ARP9 Ryzen 7 7435HS / 16 GB / 512 GB / RTX 4060",
+    "price": 3899.0,
+    "category": "laptop",
+    "img": "/images/laptopy/4.jpg",
+    "rating": 4.7,
+    "reviews": 11,
+    "sold": 51,
+    "specs": {
+      "Ekran": "15.6” 144 Hz",
+      "Procesor": "R7 7435HS",
+      "Grafika": "RTX 4060"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Laptop Lenovo LOQ 15IAX9 i5-12450HX / 16 GB / 512 GB / RTX 4050",
+    "price": 3199.0,
+    "category": "laptop",
+    "img": "/images/laptopy/5.jpg",
+    "rating": 4.5,
+    "reviews": 9,
+    "sold": 22,
+    "specs": {
+      "Ekran": "15.6” 144 Hz",
+      "Procesor": "i5-12450HX",
+      "Grafika": "RTX 4050"
+    }
+  }
 ]

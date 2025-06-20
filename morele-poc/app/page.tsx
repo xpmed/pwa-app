@@ -20,12 +20,12 @@ export default async function Home() {
 
       {/* sekcje strony glownej */}
       <div>
-        <h2 className="mb-4 text-xl font-semibold">Polecane</h2>
+        <h2 className="mb-4 text-xl font-semibold text-black">Polecane</h2>
         <FeaturedCarousel products={featured} />
       </div>
 
       <div>
-        <h2 className="mb-4 text-xl font-semibold">Do pracy i gier</h2>
+        <h2 className="mb-4 text-xl font-semibold text-black">Do pracy i gier</h2>
         <FeaturedCarousel products={workAndPlay} />
       </div>
     </section>

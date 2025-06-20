@@ -1,13 +1,17 @@
-import pwa from 'next-pwa';
+const runtimeCaching = require('next-pwa/cache');
 
-const withPWA = pwa({
+const withPWA = require('next-pwa')({
   dest: 'public',
-  register: true,
+  register: false,
   skipWaiting: true,
+  runtimeCaching,
+
+  buildExcludes: [/app-build-manifest\.json$/],
+
   disable: process.env.NODE_ENV === 'development',
 });
 
-export default withPWA({
+module.exports = withPWA({
   reactStrictMode: true,
   typescript: { ignoreBuildErrors: true },
   eslint:     { ignoreDuringBuilds: true },
